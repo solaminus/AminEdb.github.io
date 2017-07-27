@@ -232,5 +232,25 @@ var galleries = {
         h: 5184
       }
     ]
+  },
+
+  'sideline-scene': {
+    items: [
+      {
+        src: '../images/sideline-scene/IMG_2644-2.jpg',
+        w: 3456,
+        h: 5184
+      },
+      {
+        src: '../images/sideline-scene/IMG_2826.jpg',
+        w: 3456,
+        h: 5184
+      },
+      {
+        src: '../images/sideline-scene/IMG_2830.jpg',
+        w: 5184,
+        h: 3456
+      }
+    ]
   }
 };

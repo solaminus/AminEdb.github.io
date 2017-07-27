@@ -12,6 +12,7 @@ a:hover {
 
 .header .logo {
   width: 100vw;
+  opacity: 0.85;
 }
 
 .header .menu {
