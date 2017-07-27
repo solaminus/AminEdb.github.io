@@ -1,4 +1,3 @@
-
 /* general */
 
 body, button, input, select, textarea {
@@ -24,18 +23,8 @@ a.navbar-item {
 
 /* index specific */
 
-html#index {
+/*html#index {
   overflow: hidden;
-}
-
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background:rgba(255,255,255,0.5);
-  z-index: 1;
 }
 
 #index-header {
@@ -43,15 +32,11 @@ html#index {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  background-image: url('../images/background.jpg');
-  background-position: right 25% top 0;
-  background-size: cover;
 }
 
 #index-header #background {
   width: 100%;
   height: auto;
-  display: none;
 }
 
 #index-header #background-desktop {
@@ -167,11 +152,7 @@ p.about-mobile {
   margin: 14px 0;
 }
 
-@media (min-width: 520px) {
-  .overlay {
-    display: none;
-  }
-
+/*@media (min-width: 520px) {
   #index-header {
     background: none;
   }
@@ -211,7 +192,7 @@ p.about-mobile {
     left: calc(50% - 43px);
     transform: none;
   }
-}
+}*/
 
 @media (min-width: 600px) {
   p.about-mobile {
@@ -228,7 +209,7 @@ p.about-mobile {
 }
 
 @media (min-width: 520px) and (max-width: 720px) {
-  #index-header #logo {
+  /*#index-header #logo {
     bottom: 35%;
     left: calc(50% - 250px);
   }
@@ -247,12 +228,11 @@ p.about-mobile {
   #index-social {
     top: auto;
     bottom: 20%;
-  }
+  }*/
 }
 
 @media (min-width: 720px) and (max-width: 935px) {
-
-    #index-header #logo {
+    /*#index-header #logo {
       bottom: 20%;
       left: calc(50% - 250px);
     }
@@ -282,12 +262,12 @@ p.about-mobile {
 
     #index-social li a i {
       font-size: 52px;
-    }
+    }*/
 }
 
 @media screen and (min-width: 935px) and (max-width: 1132px) {
 
-  #index-header #logo {
+  /*#index-header #logo {
     bottom: 5%;
   }
 
@@ -322,12 +302,12 @@ p.about-mobile {
 
   #index-social li a i {
     font-size: 64px;
-  }
+  }*/
 }
 
 @media screen and (min-width: 1132px) {
 
-  #index-header #logo, #index-header #background {
+  /*#index-header #logo, #index-header #background {
     display: none;
   }
 
@@ -360,7 +340,7 @@ p.about-mobile {
 
   #index-socal li:last-child {
     margin: 0;
-  }
+  }*/
 
   .swiper-container p {
     width: 70%;
