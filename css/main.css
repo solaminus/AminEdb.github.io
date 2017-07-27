@@ -113,7 +113,7 @@ html#index {
   position: relative;
 }
 
-.swiper-container p {
+.swiper-container p.about-not-mobile {
   position: absolute;
   z-index: 9999;
   width: 70%;
@@ -123,10 +123,15 @@ html#index {
   transform: translateY(-50%);
   font-size: 1.1em;
   text-align: justify;
+  display: none;
+}
+
+p.about-mobile {
+  text-align: justify;
 }
 
 .swiper-slide img {
-  opacity: 0.65;
+  opacity: 1;
 }
 
 /* work specific */
@@ -141,6 +146,20 @@ html#index {
 .view-gallery {
   display: block;
   margin: 14px 0;
+}
+
+@media (min-width: 600px) {
+  p.about-mobile {
+    display: none;
+  }
+
+  .swiper-container p.about-not-mobile {
+    display: block;
+  }
+
+  .swiper-slide img {
+    opacity: 0.65;
+  }
 }
 
 @media (min-width: 520px) and (max-width: 720px) {
