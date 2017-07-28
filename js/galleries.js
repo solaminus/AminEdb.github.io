@@ -112,17 +112,17 @@ var galleries = {
   'cold-gold': {
     items: [
       {
-        src: '../images/cold-gold/IMG_5092copy.png',
+        src: '../images/cold-gold/IMG_5092copy.jpg',
         w: 3456,
         h: 5184
       },
       {
-        src: '../images/cold-gold/IMG_5114copy.png',
+        src: '../images/cold-gold/IMG_5114copy.jpg',
         w: 3456,
         h: 5184
       },
       {
-        src: '../images/cold-gold/IMG_5194copy.png',
+        src: '../images/cold-gold/IMG_5194copy.jpg',
         w: 3456,
         h: 5184
       }
@@ -132,17 +132,17 @@ var galleries = {
   'beige-etiquette': {
     items: [
       {
-        src: '../images/beige-etiquette/IMG_5814copy.png',
+        src: '../images/beige-etiquette/IMG_5814copy.jpg',
         w: 3456,
         h: 5184
       },
       {
-        src: '../images/beige-etiquette/IMG_5815copy.png',
+        src: '../images/beige-etiquette/IMG_5815copy.jpg',
         w: 3456,
         h: 5184
       },
       {
-        src: '../images/beige-etiquette/IMG_5818copy.png',
+        src: '../images/beige-etiquette/IMG_5818copy.jpg',
         w: 3456,
         h: 5184
       },
