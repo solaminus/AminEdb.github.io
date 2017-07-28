@@ -11,8 +11,10 @@ a:hover {
 }
 
 .header .logo {
-  width: 100vw;
+  width: 70vw;
   opacity: 0.85;
+  margin: 0 auto;
+  display: block;
 }
 
 .header .menu {
@@ -67,8 +69,6 @@ a:hover {
 @media (min-width: 900px) {
   .header .logo {
     width: 500px;
-    margin: 0 auto;
-    display: block;
   }
 
   .header .menu li {
