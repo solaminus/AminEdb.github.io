@@ -1,2 +1,2 @@
-# aminedbaliphotography
-Amin Edbali's photography portfolio.
+# solaminusphotography
+Photography portfolio.
